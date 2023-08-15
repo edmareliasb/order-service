@@ -1,7 +1,5 @@
 package com.javatechie.aws.cicd.example;
 
-import lombok.*;
-
 
 public class Order {
 
@@ -9,6 +7,10 @@ public class Order {
     private String name;
     private int quantity;
     private long price;
+
+    public Order() {
+
+    }
 
     public Order(int id, String name, int quantity, long price) {
         this.id = id;
